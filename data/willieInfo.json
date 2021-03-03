@@ -1,0 +1,101 @@
+{
+  "logo":"WellieWishersLogo.svg",
+  "title":"WellieWishers",
+
+  "about": {
+    "subtitle": "Meet five friends with growing imaginations who are out to make the world a kinder place.",
+    "description": "The WellieWishers are five sweet, imaginative, playful girls who all have the same wish: to be a good friend. Join them in their fun adventures as they explore the garden, jump in puddles, care for animals, put on shows, sing songs, and learn how kindness makes friendships blossom and grow.",
+    "meet": "Meet the WellieWishers, a sweet and silly group of girls whoeach have the same big, bright wish: to be a good friend. They trytheir best to be well-wishers, people who show kindness to others.These fun-loving friends imagine and play in a charming backyard gardencared for by wise and wonderful Aunt Miranda. When the WellieWishersstep into their colorful garden boots, they are ready for anything—stompingin mud puddles, putting on a show, and helping friendships grow. Likeyou, they’re finding out that “good deeds” such as cooperating, sharing,taking turns, respecting feelings, and making it right aren’t always theeasiest things to do, but they are just the right things to doto make beautiful friendships bloom.",
+    "world": "It all takes place in Aunt Miranda’s vast and wondrousgarden. The setting is countrified, but also relatable tourban adventures, with abundant fauna and flora.<br/>It’s where little girls can delight in beingunplugged, in a setting that inspires imaginativeplay, environmental awareness, getting dirty, playingsports, doing organic craft activities, and developingthe habit of stopping and smelling the roses—and getting stuck in the mud.",
+    "statement": "WellieWishers is a world of good deeds where girls learn that to be a friend is to walk the path of kindness.",
+    "line": "The garden of friendship blooms with good deeds.",
+    "invite": "Come along with the WellieWishers on imaginative outings where fun, friendship, and good deeds rule the day."
+  },
+
+  "colors":{  "Primary" :[{"name":"Petal Pink","pantone":"7424 C","CMYK":"C0 M93 Y6 K0","RGB":"R231 G71 B131"},{"name":"Tree Trunk","pantone":"7518 C","CMYK":"C50 M70 Y80 K40","RGB":"R111 G79 B71"},{"name":"Spring Grass","pantone":"7489 C","CMYK":"C62 M0 Y87 K0","RGB":"R108 G176 B74"},{"name":"Birch Bark","pantone":"9043 C","CMYK":"C5 M3 Y10 K0","RGB":"R234 G229 B221"}],
+              "Accent"  :[{"pantone":"324 C","CMYK":"C34 M0 Y12 K0","RGB":"R167 G215 B212"},{"pantone":"7408 C","CMYK":"C0 M23 Y100 K0","RGB":"R253 G193 B0"},{"pantone":"80% 7424 C","CMYK":"80%: C0 M93 Y6 K0","RGB":"80%: R231 G71 B131"},{"pantone":"7418 C","CMYK":"C8 M83 Y55 K5","RGB":"R212 G71 B84"},{"pantone":"339 C","CMYK":"C91 M0 Y60 K0","RGB":"R0 G168 B134"},{"pantone":"1635 C","CMYK":"C0 M47 Y63 K0","RGB":"R245 G149 B109"},{"pantone":"2635 C","CMYK":"C24 M29 Y0 K0","RGB":"R197 G181 B216"},{"pantone":"586 C","CMYK":"C7 M0 Y62 K0","RGB":"R238 G234 B131"}],
+              "Neutral" :[{"pantone":"407 C","CMYK":"C9 M14 Y13 K20","RGB":"R178 G168 B164"},{"pantone":"556 C","CMYK":"C51 M8 Y47 K14","RGB":"R112 G164 B136"},{"pantone":"9140 C","CMYK":"C3 M5 Y21 K0","RGB":"R246 G238 B204"},{"pantone":"7485 C","CMYK":"C9 M0 Y18 K0","RGB":"R209 G221 B187"}]
+  },
+
+  "attributes":{"Kindness"   : "WellieWishers play and grow beneath the tree of kindness.",
+               "Confidence" : "Knowing the magic of friendship keeps WellieWishers growing strong.",
+               "Good Deeds" : "When WellieWishers get together, good deeds rule the day.",
+               "Creativity" : "In the world of the WellieWishers, friendship and imagination walk hand in hand.",
+               "Mindfulness": "Caring for good friends helps WellieWishers bloom.",
+               "Friendship" : "When you walk with the WellieWishers, friendship goes first."},
+
+  "fonts":{ "import":"https://fonts.googleapis.com/css?family=Dancing+Script|Droid+Serif|Open+Sans",
+            "headline":"'Droid Serif', serif;",
+            "body":"'Open Sans', sans-serif;",
+            "accent":"Dancing Script', cursive"},
+
+  "books":[
+          {"title":"The Riddle of the Robin",
+            "image":"book1.jpg",
+            "author":"Valerie Tripp",
+            "pages":"96",
+            "PB":"978-1-60958791-8",
+            "price":"$5.99"},
+
+          {"title":"Ashlyn’s Unsurprise Party",
+            "image":"book2.jpg",
+            "author":"Valerie Tripp",
+            "pages":"88",
+            "PB":"978-1-60958792-5",
+            "price":"$5.99"},
+
+          {"title":"The Muddily-Puddily Show",
+            "image":"book3.jpg",
+            "author":"Valerie Tripp",
+            "pages":"96",
+            "PB":"978-1-60958793-2",
+            "price":"$5.99"}
+          ],
+
+  "characters":{
+                "Willa":{"name":"Willa",
+                         "imagebase":"willa",
+                         "quality":"animals & nature",
+                         "meet":"Meet Willa. Our own intrepid nature-girl is destined to explore the whole wide world—and love it all. You can count on her to be the first one up a tree and the last one to turn away a four-footed friend.",
+                         "personality":"Nature-loving adventurer. Fluent in Squirrel, Chipmunk, and Skunk.",
+                         "Who She Is":"Willa has a great relationship with the animals in the garden, but when it comes to people, she has trouble using her words. Although she’s not very confident standing up for herself, she’s often the most adventuresome of the group.",
+                         "Passions":"Willa loves to spend her time climbing trees to get a good look at a nest of baby squirrels, exploring the “wild” part of the garden, or sitting so still that chickadees alight on her shoulders.",
+                         "Good Deeds":"Willa’s favorite good deeds involve cognitive skills—especially encouraging others to have a love and appreciation of animals and nature."},
+
+                "Kendall":{"name":"Kendall",
+                          "imagebase":"kendall",
+                          "quality":"artistic",
+                          "meet":"Meet Kendall. She’s a girl who crafts her own world with creativity and kindness. Leave it to her to patch friendly mixups with smiles, patience, and some sparkly stickers.",
+                          "personality":"Artist, scientist, up-cycler extraordinaire.",
+                          "Who She Is":"Kendall is our creative dynamo—there are just not enough hours in the day to bring all her artistic ideas to life. She has a tendency to be unfocused, though, and she can be somewhat of a perfectionist.",
+                          "Passions":"Kendall loves—and lives—to create on any level, from painting a mural to making garden sculptures to designing costumes. She is especially good at tinkering with found objects.",
+                          "Good Deeds":"Kendall’s favorite good deeds involve artistic skills—especially recycling, upcycling, and giving handmade gifts thoughtfully suited to cheer up a friend in need."},
+
+                "Ashlyn":{"name":"Ashlyn",
+                          "imagebase":"ashlyn",
+                          "quality":"social",
+                          "meet":"Meet Ashlyn, the generous soul of the social circle. Her fancy-free party themes are just the right thing to turn a friend’s frown upside down.",
+                          "personality":"Down-to-earth princess and out-of-this-world party planner.",
+                          "Who She Is":"Ashlyn may sound like a prim and proper name, but she is not quite put together—and tends to forget her manners. She’s our well-intentioned princess-in-training.",
+                          "Passions":"Ashlyn has a generous heart and loves to bring people together for parties and other celebrations. She delights in creating her own special occasions. Ever heard of Upside Down Day? Dress Like a Carnival Day? Now you have.",
+                          "Good Deeds":"Ashlyn’s favorite good deeds involve social skills—inviting a shy girl to a tea party or giving out hugs to the girl who was left out at lunchtime."},
+
+                "Emerson":{"name":"Emerson",
+                          "imagebase":"emerson",
+                          "quality":"performance",
+                          "meet":"Meet Emerson. If there’s a spotlight, Emerson is basking in it. This talented star knows what makes her friends laugh and is never shy when the dancea- thon is on.",
+                          "personality":"Passionate performer. Loves the limelight and it loves her right back.",
+                          "Who She Is":"Emerson loves the limelight and it loves her right back. Slightly larger than life, she sometimes forgets that it’s fine to be in the show without being the star.",
+                          "Passions":"Emerson is happiest when she is performing: dancing, acting, singing, juggling, trapeze, you name it. She’s full of self-confidence and will try anything, even if it might make her look silly. Especially if it might make her look silly.",
+                          "Good Deeds":"Emerson’s favorite good deeds involve performance skills—making up songs, jokes, poems, and interpretive dances to help friends forget their troubles."},
+
+                "Camille":{"name":"Camille",
+                          "imagebase":"camille",
+                          "quality":"performance",
+                          "meet":"Meet Camille. She knows just the right word to make a friend feel loved and makes sure the group has fun no matter what comes their way.",
+                          "personality":"Secret keeper, loving listener. Hair that doesn’t frizz.",
+                          "Who She Is":"Camille is mellow, the one most likely to go with the flow. She has the grace of a natural athlete, especially with anything water-related. She’s our wise and wonderful mermaid girl.",
+                          "Passions":"Camille’s easygoing nature makes her the WellieWishers’ go-to girl when they need to talk to a trusted friend—Camille loves to listen, and has the ability to look beneath the surface of a situation or person to see the heart of things.",
+                          "Good Deeds":"Camille’s favorite good deeds involve emotional skills—she knows just the right thing to say at just the right time, and when silence is the best answer."}
+                        }
+            }

@@ -1,0 +1,235 @@
+@import 'https://fonts.googleapis.com/css?family=Dancing+Script|Droid+Serif|Open+Sans';
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+#parallaxHolder{
+margin: 0 auto;
+}
+#parallaxHolder li>img {
+  display: block;
+  width: 110%;
+  height: 110%;
+  left: -5%;
+  top: -5%;
+  position: relative;
+}
+#parallaxHolder li{
+  height: 100%;
+  width: 100%;
+}
+#parallaxHolder li:not(.buttonLayer){
+  pointer-events: none;
+}
+#parallaxHolder {
+  opacity: 0;
+  position: relative;
+  width: 100%;
+  padding: 0;
+  margin: auto;
+}
+#parallaxHolder .scene {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+#parallaxHolder .svgBorder {
+  position: absolute;
+  bottom: -11%;
+}
+#parallaxHolder .svgLogo {
+  position: absolute;
+  margin: auto;
+  top: 3%;
+  right: 0;
+  left: 0;
+  height: 24%;
+}
+
+/* #parallaxHolder1 */
+.girlHolder{
+  text-align: center;
+  height:60%;
+  margin: 0;
+  padding: 0;
+  margin-top: 15%;
+}
+.girlHolder img{
+  margin: -0.3%;
+  padding: 0;
+  height:100%;
+}
+.girlHolder .girlBTN {
+  transition: all .2s ease-in-out;
+  cursor:pointer;
+}
+.girlHolder .girlBTN:hover{
+ transform: scale(1.15);
+}
+
+/* #parallaxHolder1 */
+.girlOverlayHolder,
+.girlOverlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.girlOverlay {
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.girlOverlayHolder .girlPop {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  height: 75%;
+  width: 85%;
+  max-height: 560px;
+  max-width: 1000px;
+}
+
+/* girlPop images */
+.girlOverlayHolder .girlPop .cornerFlower{
+  position: absolute;
+  height: 25%;
+  top: -5%;
+  right: -2%;
+}
+.girlOverlayHolder .girlPop .closeBTN {
+  position: absolute;
+  cursor: pointer;
+  background: white;
+  height: 35px;
+  line-height: 35px;
+  width: 35px;
+  text-align: center;
+  border-radius: 20px;
+  right: 0;
+  top: 0;
+  font-size: 19px;
+  -webkit-box-shadow: 0 1px 33px rgba(0,0,0,0.27);
+  -moz-box-shadow: 0 1px 33px rgba(0,0,0,0.27);
+  box-shadow: 0 1px 33px rgba(0,0,0,0.27);
+  border: 2px solid #644130;
+}
+.girlOverlayHolder .girlPop .cornerDoll {
+  position: absolute;
+  left: -13%;
+  top: -8%;
+  height: 119%;
+  pointer-events: none;
+}
+.girlOverlayHolder .girlPop .cornerBoot {
+  position: absolute;
+  height: 120px;
+  bottom: -3%;
+  right: -2%;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  -ms-filter: "FlipH";
+}
+/* hidden */
+.girlOverlayHolder .girlPop .cornerIll {
+  position: absolute;
+  height: 45%;
+  right: -2%;
+  top: -4%;
+}
+
+
+.infoBody {
+  width: 73%;
+  margin-left: 17%;
+  position: absolute;
+  font-size: 230%;
+  vertical-align: top;
+  background: #f4f2e7;
+  border: 2px solid #69b94c;
+  border-radius: 100px;
+  padding: 51px;
+  -webkit-box-shadow: 0 1px 33px rgba(0,0,0,0.27);
+  -moz-box-shadow: 0 1px 33px rgba(0,0,0,0.27);
+  box-shadow: 0 1px 33px rgba(0,0,0,0.27);
+}
+.infoBody .title{
+  font-family: 'Droid Serif', serif;
+  vertical-align: top;
+  padding: 0;
+  margin: 0;
+}
+.infoBody .name{
+  font-family: 'Dancing Script', cursive;
+  font-size: 200%;
+  vertical-align: top;
+  color: #e8247f;
+}
+.girlContent  {
+  font-size: 19px;
+}
+.allSections {
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+.subTitle {
+  /*font-family: 'Droid Serif', serif;*/
+  font-family: 'Dancing Script', cursive;
+  font-size: 26px;
+  color: #e8247f;
+  margin-right: 8px;
+}
+.allSections:nth-child(1)>.subTitle{
+  display: none;
+}
+
+/* not used */
+.girlNav>div {
+  font-family: 'Droid Serif', serif;
+  text-transform: capitalize;
+  display: inline-block;
+  border: 1px solid rgba(197, 181, 216, 1);
+  padding: 10px;
+  margin: 5px;
+  font-size: 20px;
+  background:rgba(197, 181, 216, 0.5);
+  -webkit-box-shadow: 0 0 9px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0 0 9px rgba(0,0,0,0.15);
+  box-shadow: 0 0 9px rgba(0,0,0,0.15);
+  cursor: pointer;
+}
+.girlNav>div:hover {
+  background:rgba(197, 181, 216, 0.75);
+}
+.girlNav>div:nth-child(odd) {
+  transform: rotate(-10deg);
+}
+.girlNav>div:nth-child(even) {
+  transform: rotate(10deg);
+}
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}

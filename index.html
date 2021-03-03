@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Welliewishers</title>
+
+	<!-- Behavioral Meta Data -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+	<link rel="stylesheet" type="text/css" href="css/default.css" />
+	<link rel="stylesheet" type="text/css" href="css/bookblock.css" />
+
+	<!-- custom demo style -->
+	<link rel="stylesheet" type="text/css" href="css/book.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo1.css" />
+
+	<script src="widgets/BookBlock/js/modernizr.custom.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+
+</head>
+<body>
+	<!-- Parallax Section -->
+	<div id="parallaxHolder" class="WellieSec parallaxHolder">
+		<ul id="scene" class="scene">
+			<li class="layer" data-depth="-0.15"><img src="img/Parallax4_2.png"></li>
+			<li class="layer" data-depth="-0.10"><img src="img/Parallax4_3.png"></li>
+			<li class="layer" data-depth="-0.05"><img src="img/Parallax4_4.png"></li>
+			<li class="layer" data-depth="0.05"><img src="img/Parallax4_5.png"></li>
+			<li class="layer buttonLayer" data-depth="0.12">
+				<div class="girlHolder">
+					<img class="bunny" src="img/Parallax_girls_6.png">
+					<img class="girlBTN" data-name="Emerson" src="img/Parallax_girls_5.png">
+					<img class="girlBTN" data-name="Camille" src="img/Parallax_girls_4.png">
+					<img class="girlBTN" data-name="Ashlyn" src="img/Parallax_girls_3.png">
+					<img class="girlBTN" data-name="Willa" src="img/Parallax_girls_2.png">
+					<img class="girlBTN" data-name="Kendall" src="img/Parallax_girls_1.png">
+				</div></li>
+			<li class="layer" data-depth="0.15"><img src="img/Parallax4_7.png"></li>
+		</ul>
+		<img class="svgLogo" src="img/WellieWishersLogo.svg">
+		<div class="girlOverlay"></div>
+		<img class="svgBorder" src="img/Border3.svg">
+		<div class="girlOverlayHolder"></div>
+	</div>
+
+	<!-- App Section -->
+	<div class="WellieSec appHolder">
+		<div class="treeHolder">
+		<img src="img/Birch_Trees_left.svg"  alt="Birch Trees" class="birch bLeft">
+		<img src="img/Birch_Trees_right.svg" alt="Birch Trees" class="birch bRight">
+		</div>
+		<h1>Fun at your <span>fingertips</span></h1>
+		<h2>Play along with the WellieWishers app!</h2>
+
+		<div class="iPad">
+			<video id='appV' class="appVid" autoplay loop poster="img/iPad-appScreen_1.jpg">
+				<source src="videos/Wellie.m4v" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+			<img src="img/iPad-Frame.png" alt="" class="iPad">
+		</div>
+		<div class="description">
+			<div class="textBlock">
+				<h3>WellieWishers App</h3>
+				<p>Welcome to the WellieWishers’ garden, where there’s so much to explore! Can you help take care of Carrot, the cutest pet rabbit around? Are you set to make a mess—and a mud pie? Ready to create music with instruments inspired by the garden? All this fun awaits, and it’s just a tap away.</p>
+			</div>
+			<div class="appLink">
+				<img class='appIcon' src="img/ww-app-icon.png" alt="app Icon">
+				<img class='appleStore' src="img/app_store_badge.png">
+				<p>App Store is a service trademark of Apple Inc.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Book Section -->
+	<div class="WellieSec bookHolder">
+		<h1>Sweet <span>stories</span></h1>
+		<h2>New adventures with the WellieWishers</h2>
+		<div class="exceptHolder"></div>
+		<div class="bookDis"></div>
+	</div>
+
+	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+
+	<!--script src="widgets/BookBlock/js/jquery.bookblock.js"></script-->
+	<script src="js/jquery.parallax.min.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+	<script src="js/jquery.bookblock.js"></script>
+
+	<!--CDN link for  TweenMax-->
+	<script src="js/index.js"></script>
+	<script>
+
+	// Yep, that's it!
+	$('#scene').parallax();
+
+	</script>
+
+</body>
+</html>

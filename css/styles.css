@@ -1,0 +1,544 @@
+@import 'https://fonts.googleapis.com/css?family=Dancing+Script|Droid+Serif|Open+Sans';
+/*
+font-family: 'Droid Serif', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Dancing Script', cursive;
+color: #e8247f;
+*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+.WellieSec h1{
+  font-family: 'Droid Serif', serif;
+  font-size: 210%;
+  color: #644130;
+  margin: auto;
+  text-align: center;
+}
+.WellieSec h1 span{
+  font-family: 'Dancing Script', cursive;
+  font-size: 135%;
+  color: #e8247f;
+}
+.WellieSec h2{
+  margin: 4px;
+  font-size: 130%;
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+.WellieSec h3{
+  font-family: 'Droid Serif', serif;
+  font-size: 130%;
+  color: #644130;
+  margin: 0;
+  margin-bottom: 10px;
+}
+/***************************************************************************************************************************
+PARALLAX HOLDER
+***************************************************************************************************************************/
+.parallaxHolder{
+  margin: 0 auto;
+  opacity: 0;
+  z-index: 2;
+}
+.parallaxHolder li>img {
+  display: block;
+  width: 110%;
+  height: 110%;
+  left: -5%;
+  top: -5%;
+  position: relative;
+}
+.parallaxHolder li{
+  height: 100%;
+  width: 100%;
+}
+.parallaxHolder li:not(.buttonLayer){
+  pointer-events: none;
+}
+.parallaxHolder {
+  opacity: 0;
+  position: relative;
+  width: 100%;
+  padding: 0;
+  margin: auto;
+}
+.parallaxHolder .scene {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.parallaxHolder .svgBorder {
+  position: absolute;
+  bottom: -11%;
+}
+.parallaxHolder .svgLogo {
+  position: absolute;
+  margin: auto;
+  top: 3%;
+  right: 0;
+  left: 0;
+  height: 24%;
+}
+
+/* .parallaxHolder1 */
+.parallaxHolder .girlHolder{
+  text-align: center;
+  height:60%;
+  margin: 0;
+  padding: 0;
+  margin-top: 15%;
+}
+.parallaxHolder .girlHolder img{
+  margin: -0.3%;
+  padding: 0;
+  height:100%;
+}
+.parallaxHolder .girlHolder .girlBTN {
+  transition: all .2s ease-in-out;
+  cursor:pointer;
+}
+.parallaxHolder .girlHolder .girlBTN:hover{
+ transform: scale(1.15);
+}
+
+/* .parallaxHolder1 */
+.parallaxHolder .girlOverlayHolder,
+.parallaxHolder .girlOverlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.parallaxHolder .girlOverlay {
+  background: rgba(255, 255, 255, 0.85);
+}
+.parallaxHolder .girlOverlayHolder .girlPop {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  height: 80%;
+  width: 80%;
+  max-width: 1200px;
+  max-height: 673px;
+}
+
+/* girlPop images */
+.parallaxHolder .girlOverlayHolder .girlPop .closeBTN {
+  position: absolute;
+  cursor: pointer;
+  background: white;
+  height: 35px;
+  line-height: 35px;
+  width: 35px;
+  text-align: center;
+  border-radius: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 19px;
+  -webkit-box-shadow: 0 1px 33px rgba(0,0,0,0.27);
+  -moz-box-shadow: 0 1px 33px rgba(0,0,0,0.27);
+  box-shadow: 0 1px 33px rgba(0,0,0,0.27);
+  border: 2px solid #644130;
+}
+.parallaxHolder .girlOverlayHolder .girlPop .cornerFlower,
+.parallaxHolder .girlOverlayHolder .girlPop .cornerDoll,
+.parallaxHolder .girlOverlayHolder .girlPop .cornerBoot,
+.parallaxHolder .girlOverlayHolder .girlPop .cornerIll{
+  display:none;
+}
+.parallaxHolder .girlOverlayHolder .girlPop .modalDoll {
+  width: 100%;
+  border-bottom: 1px solid #69b94c;
+}
+
+.parallaxHolder .infoBody {
+  margin: auto;
+  position: absolute;
+  vertical-align: top;
+  background: #f4f2e7;
+  border: 2px solid #69b94c;
+  border-radius: 30px;
+  padding: 5%;
+  -webkit-box-shadow: 0 1px 33px rgba(0,0,0,0.27);
+  -moz-box-shadow: 0 1px 33px rgba(0,0,0,0.27);
+  box-shadow: 0 1px 33px rgba(0,0,0,0.27);
+}
+.parallaxHolder .infoBody .title{
+  font-family: 'Droid Serif', serif;
+  vertical-align: top;
+  padding: 0;
+  font-size: 300%;
+  text-align: center;
+  margin: 0;
+}
+.parallaxHolder .infoBody .name{
+  font-family: 'Dancing Script', cursive;
+  font-size: 130%;
+  vertical-align: top;
+  color: #e8247f;
+}
+
+.parallaxHolder .allSections {
+  margin-bottom: 10px;
+}
+.parallaxHolder .subTitle {
+  /*font-family: 'Droid Serif', serif;*/
+  font-family: 'Dancing Script', cursive;
+  font-size: 175%;
+  color: #e8247f;
+  margin-right: 8px;
+}
+.parallaxHolder .allSections:nth-child(1)>.subTitle{
+  display: none;
+}
+
+/***************************************************************************************************************************
+APP HOLDER
+***************************************************************************************************************************/
+.appHolder {
+  padding: 15px;
+  padding-top: 4%;
+  text-align: center;
+  position: relative;
+  background-image: url("../img/meet-bg.gif");
+  overflow: hidden;
+  z-index: 1;
+  -webkit-box-shadow: inset 0 11px 33px rgba(0,0,0,0.25);
+  -moz-box-shadow: inset 0 11px 33px rgba(0,0,0,0.25);
+  box-shadow: inset 0 11px 33px rgba(0,0,0,0.25);
+}
+
+/** Description **/
+.appHolder .description {
+  display: inline-block;
+  position: relative;
+  width: 78%;
+  max-width: 900px;
+  text-align: left;
+  vertical-align: top;
+  margin-bottom: 15px;
+  min-height: 260px;
+}
+.textBlock {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+}
+/* App Icon */
+.appLink{
+  text-align: center;
+  margin: auto;
+  width: 160px;
+}
+.appHolder .description img{
+  width:100%;
+  max-width:150px;
+}
+.appHolder .description .appIcon{
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.appLink p{
+  font-size: 10px;
+}
+
+/** Ipad **/
+.appHolder .iPad {
+  display: inline-block;
+  width: 100%;
+  max-width: 900px;
+  max-height: 100%;
+  min-width: 300px;
+  margin: auto -40px;
+  position: relative;
+  /*pointer-events: none;*/
+}
+.appHolder ul {
+  list-style-type: none;
+}
+.appHolder .iPad .screen,
+.appHolder .iPad video{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 9%;
+  width: 71.5%;
+  height: 74%;
+}
+/** Birch Trees **/
+.appHolder .birch{
+  display: none;
+}
+/***************************************************************************************************************************
+Book HOLDER
+***************************************************************************************************************************/
+.bookHolder{
+  text-align: center;
+  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%),rgba(246,173,200,0.35); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%), rgba(246,173,200,0.35); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%), rgba(246,173,200,0.35); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  padding: 15px;
+  position: relative;
+  border-top: 10px solid #efebe8;
+}
+.exceptHolder{
+  display: none;
+}
+.BookDiv {
+  display: inline-block;
+  position: relative;
+  border: 1px solid;
+  background: rgba(255, 255, 255, 0.5);
+  max-width: 500px;
+  vertical-align: top;
+  padding: 0 10px;
+  text-align: left;
+  margin: 20px;
+  margin-bottom: 70px;
+}
+.BookDiv:hover{
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.bookAbout {
+  padding: 25px;
+  margin-left: 0;
+  font-size: 90%;
+}
+.book {
+  display: block;
+  float: inherit;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 30px;
+}
+.page{
+  text-align: center;
+}
+.btn{
+  margin-top: 82px;
+  padding: 10px;
+}
+/***************************************************************************************************************************
+BOOK HOLDER
+***************************************************************************************************************************/
+.mapHolder{
+  margin: auto;
+  position: relative;
+  max-height: 742px;
+  max-width: 1000px;
+}
+.mapHolder img{
+  position: absolute;
+  margin: auto;
+  transition: all .2s ease-in-out;
+  cursor:pointer;
+}
+.mapHolder img:not(.BG){
+  transform: scale(0.9)
+}
+.mapHolder img:not(.BG):hover{
+  transform: scale(1);
+}
+
+.mapHolder .reference{}
+.mapHolder .BG{}
+.mapHolder .carriage{
+  top: 111px;
+  left: 258px;
+}
+.mapHolder .central-tree{
+  top: 277px;
+  left: 645px;
+}
+.mapHolder .flower-garden-bush{
+  top: 342px;
+  left: 102px;
+}
+.mapHolder .garden{
+  top: 419px;
+  left: 711px;
+}
+.mapHolder .garden-tree{
+  top: 405px;
+  left: 371px;
+}
+.mapHolder .house{
+  top: 244px;
+  left: 258px;
+}
+.mapHolder .play-house{
+  top: 99px;
+  left: 396px;
+}
+.mapHolder .pond{
+  top: 126px;
+  left: 630px;
+}
+.mapHolder .rabbit-hutch-patch{
+  top: 84px;
+  left: 80px;
+}
+.mapHolder .shed{
+  top: 480px;
+  left: 668px;
+}
+.mapHolder .stage{
+  top: 516px;
+  left: 58px;
+}
+.mapHolder .tea-table{
+  top: 553px;
+  left: 582px;
+}
+/***************************************************************************************************************************
+Media Queries
+***************************************************************************************************************************/
+/* 6 plus narrow */
+@media screen and (min-width: 414px) {
+  .parallaxHolder .girlOverlayHolder .girlPop .cornerFlower{
+    display: inline-block;
+    position: absolute;
+    top: -25px;
+    height: 130px;
+    right: -19px;
+  }
+  .parallaxHolder .girlOverlayHolder .girlPop .cornerBoot {
+    display: inherit;
+    Height: 120px;
+    position: absolute;
+    float: right;
+    bottom: -15px;
+    right: -41px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: "FlipH";
+  }
+  .parallaxHolder .infoBody {
+    margin-bottom: 50px;
+  }
+
+}
+/* Ipad wide */
+@media screen and (min-width: 1024px) {
+  .WellieSec h1{font-size: 300%;}
+  .WellieSec h2{font-size: 200%;}
+
+  body {
+    font-size: 17px;
+  }
+  .parallaxHolder .girlOverlayHolder .girlPop .modalDoll{
+    display:none;
+  }
+  .parallaxHolder .girlOverlayHolder .girlPop .cornerDoll {
+    display: inherit;
+    position: absolute;
+    left: -95px;
+    top: -75px;
+  }
+  .parallaxHolder .infoBody .title {
+    text-align: left;
+  }
+  .parallaxHolder .infoBody {
+    margin-left: 150px;
+  }
+  .appHolder {
+    -webkit-box-shadow: inset 0 11px 33px rgba(0,0,0,0.57);
+    -moz-box-shadow: inset 0 11px 33px rgba(0,0,0,0.57);
+    box-shadow: inset 0 11px 33px rgba(0,0,0,0.57);
+  }
+  .appHolder .textBlock {
+    margin-right: 180px;
+  }
+  .appLink{
+    position: absolute;
+    top:0;
+    right:0;
+  }
+  .exceptHolder{
+    display: block;
+  }
+  .book{
+    position: absolute;
+    display: inline-block;
+    float: none;
+    top: 0;
+    left: 0;
+    margin: 45px;
+  }
+  .bookAbout {
+    padding: 25px;
+    margin-left: 230px;
+    min-height: 210px;
+  }
+  .BookDiv {
+    max-width: 750px;
+    cursor: pointer;
+  }
+  .bookSelect{
+    background: rgba(197,181,216,0.1) !important;
+  }
+}
+/* Large Desktops */
+@media only screen  and (min-width : 1550px) {
+  .parallaxHolder .girlOverlayHolder .girlPop .cornerIll{
+    display: inherit;
+    position: initial;
+    float: right;
+    width: 250px;
+    margin-right: -55px;
+    margin-top: -55px;
+  }
+  .parallaxHolder .girlOverlayHolder .girlPop .cornerDoll {
+    Height: 800px;
+    left: -190px;
+    top: -105px;
+  }
+
+  /* Styles */
+  .appHolder .description{
+    width: 305px;
+  }
+  .appHolder .textBlock {
+    margin-right: 0;
+  }
+  .appLink{
+    position: inherit;
+  }
+  .appHolder .birch{
+    display: inline;
+    position: absolute;
+    height: 130%;
+  }
+  .treeHolder {
+    position: absolute;
+    max-width: 1880px;
+    top: -55px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    left:0;
+    right:0;
+  }
+  .bLeft{
+    left: -135px;
+  }
+  .bRight{
+    right:-135px;
+  }
+}
