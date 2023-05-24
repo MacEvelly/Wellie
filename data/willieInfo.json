@@ -31,21 +31,21 @@
 
   "books":[
           {"title":"The Riddle of the Robin",
-            "image":"book1.jpg",
+            "image":"book1.webp",
             "author":"Valerie Tripp",
             "pages":"96",
             "PB":"978-1-60958791-8",
             "price":"$5.99"},
 
           {"title":"Ashlyn’s Unsurprise Party",
-            "image":"book2.jpg",
+            "image":"book2.webp",
             "author":"Valerie Tripp",
             "pages":"88",
             "PB":"978-1-60958792-5",
             "price":"$5.99"},
 
           {"title":"The Muddily-Puddily Show",
-            "image":"book3.jpg",
+            "image":"book3.webp",
             "author":"Valerie Tripp",
             "pages":"96",
             "PB":"978-1-60958793-2",
