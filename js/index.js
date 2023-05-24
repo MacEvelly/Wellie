@@ -10,7 +10,7 @@
             summery: 'Summery',
             insideText: 'Inside Text',
             insideLink: '#',
-            coverImage: "http://s.cdpn.io/13060/book1.jpg"
+            coverImage: "http://s.cdpn.io/13060/book1.webp"
         };
         $.extend(D, infoObject);
 
@@ -44,7 +44,7 @@
         var myBook = $('<div class="bb-bookblock"></div>').appendTo(bookHolder);
 
         for (var pageNum = 2; pageNum <= pages; pageNum++) {
-            var page = $("<div class='bb-item'><img src='img/" + book + "_P" + pageNum + ".jpg' alt='page" + pageNum + "'/></div>").appendTo(myBook);
+            var page = $("<div class='bb-item'><img src='img/" + book + "_P" + pageNum + ".webp' alt='page" + pageNum + "'/></div>").appendTo(myBook);
         }
 
         var navHolder = $('<nav>'+
@@ -159,14 +159,14 @@
     /************ Book Javascript ************/
     var book1 = $("<div/>",{'class':'BookDiv'}).appendTo('.bookDis');
     $(book1).makeBook({ title: 'The Riddle of the Robin',
-        coverImage : "img/book1.jpg",
+        coverImage : "img/book1.webp",
         insideLink : "pdf/WW_book2.pdf",
         flipBook:["B1",8],
         summery:"A robin has moved into the garden, thrilling the WellieWishers with its pretty songs. When the girls bring it presents, they learn what robins like to eat. (Hint: It’s sort of like spaghetti!) Then one day, the robin disappears. The girls go on a hunt to find it—and get a major surprise! Can animal-lover Willa figure out what’s up with her new feathered friend?"});
 
     var book2 = $("<div/>",{'class':'BookDiv'}).appendTo('.bookDis');
     $(book2).makeBook({ title: "Ashlyn's Unsurprise Party",
-        coverImage : "img/book2.jpg",
+        coverImage : "img/book2.webp",
         insideLink : "pdf/WW_book2.pdf",
         flipBook:["B2",7],
         summery:"Ashlyn is throwing a party! She wants to keep everything top secret so that she can surprise her friends. Then she learns that her friends have allergies and other needs. At first, Ashlyn is disappointed about letting her friends in on her secret plans—but it turns out that Ashlyn is in for the biggest surprise of all!"
@@ -174,7 +174,7 @@
 
     var book3 = $("<div/>",{'class':'BookDiv'}).appendTo('.bookDis');
     $(book3).makeBook({ title: 'The Muddily-Puddily Show',
-        coverImage : "img/book3.jpg",
+        coverImage : "img/book3.webp",
         insideLink : "pdf/WW_book3.pdf",
         flipBook:["B3",11],
         summery:"The WellieWishers are putting on a show, and Emerson is in charge. The girls love her songs and silly skits, but not all of Emerson’s creative ideas are working. Ashlyn can’t see out of her pumpkin costume, Willa has a touch of stage fright, and Kendall is struggling with the special effects. When the girls try to tell her their problems, Emerson doesn’t listen. Will the show go on?"
